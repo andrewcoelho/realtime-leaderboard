@@ -1,0 +1,3 @@
+export const HYDRATE_STATE = 'HYDRATE_STATE';
+export const ADD_POINTS = 'ADD_POINTS';
+export const CONFIRM_ADD_POINTS = 'CONFIRM_ADD_POINTS';

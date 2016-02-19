@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <style screen="media">
+    #root {
+      font-family: Helvetica, sans-serif;
+      max-width: 400px;
+      margin: 20px auto;
+    }
+
+    header {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 5px 0;
+      letter-spacing: 7px;
+      text-transform: uppercase;
+    }
+
+    header p {
+      margin: 5px 0;
+      color: #aaa;
+      font-size: 12px;
+      font-weight: 600;
+    }
+
+    ul {
+      list-style: none;
+      margin-top: 10px;
+      padding: 0;
+      border-top: 1px solid rgba(0,0,0,0.1);
+    }
+
+    ul li {
+      padding: 15px;
+      font-size: 17px;
+      font-weight: 300;
+      border-bottom: 1px solid rgba(0,0,0,0.1);
+      border-left: 4px solid transparent;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+    }
+
+    ul li:hover {
+      background-color: rgba(108,197,247,0.1);
+      border-left-color: rgb(21,144,213);
+    }
+
+    ul li span.position {
+      padding-right: 20px;
+      color: #aaa;
+      font-size: 14px;
+      font-weight: 400;
+    }
+
+    ul li span.points {
+      float: right;
+      font-size: 15px;
+      font-weight: 700;
+      line-height: 1.7;
+    }
+
+    footer {
+      padding: 10px;
+      font-size: 22px;
+      font-weight: 300;
+    }
+
+    footer button {
+      float: right;
+      height: 35px;
+      padding: 0 25px;
+      color: rgb(21, 144, 213);
+      font-size: 14px;
+      font-weight: 700;
+      background-color: transparent;
+      border: 1px solid rgb(21, 144, 213);
+      border-radius: 70px;
+      outline: none;
+      transition: all 0.1s linear;
+      cursor: pointer;
+    }
+
+    footer button:hover {
+      color: #fff;
+      background-color: rgb(21, 144, 213);
+    }
+  </style>
+  <body>
+    <div id="root"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
